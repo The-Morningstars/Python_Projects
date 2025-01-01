@@ -41,7 +41,7 @@ resources_coffee = 100
 profit = 0
 
 while vending:
-    print("WELCOME TO CHONK'S 'COMfee' MACHINE!")
+    print("☕️☕️☕️WELCOME TO CHONK'S 'COMfee' MACHINE!☕️☕️☕️")
     response = input("What drink do you want? (espresso, cappuccino, or latte)\n").lower()
 
     if response == "report":
@@ -73,7 +73,7 @@ while vending:
             if money >= drinks_cost:
                 print(f"here is your {change} USD")
                 print(f"you paid with {money} USD")
-                print(f"Here is your {response}. ENJOY!!!")
+                print(f"Here is your {response}. ☕️ ENJOY!!!")
             else:
                     print("not enough $monies$")
                     vending = False
